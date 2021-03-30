@@ -24,6 +24,7 @@ public class AdaptadorDemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		//adaptadorService = new AdaptadorServiceImp();
+
 		File archivo = new File("usuarios.xml");
 		adaptadorService.convertir(archivo);
 
